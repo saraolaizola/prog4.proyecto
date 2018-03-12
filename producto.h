@@ -10,7 +10,7 @@ typedef struct
 	int categoria;
 } t_producto;
 
-void AltaProducto(t_producto *p);
+void AltaProducto();
 void ImprimirProducto(t_producto p);
 
 #endif

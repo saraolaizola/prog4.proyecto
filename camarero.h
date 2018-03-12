@@ -11,7 +11,10 @@ typedef struct
 	int tel; 
 } t_camarero;
 
-void AltaCamarero(t_camarero *c);
+void AltaCamarero();
 void MostrarCamarero(t_camarero c);
+void NuevaMesa (t_camarero *c, int mesa);
+void RealizarPedido (t_camarero *c, int mesa);
+
 
 #endif

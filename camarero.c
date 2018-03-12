@@ -2,12 +2,14 @@
 #include "camarero.h"
 
 
-void AltaCamarero(t_camarero *c)
+void AltaCamarero()
 {
 	char nombre;
 	char apellido;
 	int dni;
 	int tel;
+
+	t_camarero *c; //a gestionar
 
 	printf("ALTA CAMARERO \n");
 
@@ -33,3 +35,4 @@ void MostrarCamarero(t_camarero c)
 {
 	printf("%s %s, DNI: %d, Telefono: %d)",c.nombre,c.apellido,c.dni,c.tel);
 }
+

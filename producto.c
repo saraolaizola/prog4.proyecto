@@ -2,11 +2,13 @@
 #include <stdio.h>
 #include <ctype.h>
 
-void AltaProducto(t_producto *p)
+void AltaProducto()
 {
 	char nombre;
 	int precio;
 	int categoria;
+
+	t_producto *p; //a gestionar
 
 	printf("ALTA PRODUCTO: \n");
 	
